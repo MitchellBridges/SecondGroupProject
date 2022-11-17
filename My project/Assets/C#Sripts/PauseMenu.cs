@@ -48,8 +48,8 @@ public class PauseMenu : MonoBehaviour
 	}
 	public void Close()
 	{
-		Time.timeScale = 0;
-		GetComponent<Canvas>().enabled = true;
+		Time.timeScale = 1;
+		GetComponent<Canvas>().enabled = false;
 	}
 	public void Controls()
 	{
