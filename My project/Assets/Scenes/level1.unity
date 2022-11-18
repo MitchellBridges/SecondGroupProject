@@ -1773,22 +1773,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5817880931214609601, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
   m_PrefabInstance: {fileID: 5817880929852316521}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &5817880929852316531
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5817880929852316522}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d5b0d5aa99c43534a9c60ecb21c9442e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  coinCount: 0
-  coinsNeeded: 10
-  coinText: {fileID: 285103033}
-  sceneName: level2
 --- !u!114 &5817880929852316532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1803,6 +1787,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slider: {fileID: 276157090}
   health: 10
+--- !u!114 &5817880929852316533
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5817880929852316522}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a5ab0306c8772f488d7ba35d6635df9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coinCount: 0
+  coinsNeeded: 10
+  coinText: {fileID: 285103033}
+  sceneName: level2
 --- !u!1001 &6710691632507975259
 PrefabInstance:
   m_ObjectHideFlags: 0
