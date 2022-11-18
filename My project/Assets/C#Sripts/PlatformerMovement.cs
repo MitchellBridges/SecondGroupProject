@@ -14,6 +14,8 @@ public class PlatformerMovement : MonoBehaviour
     SpriteRenderer spriteR;
     Rigidbody2D feet;
 
+    public GameObject Coins;
+
     void Start()
     {
         rb= GetComponent<Rigidbody2D>();
@@ -74,11 +76,4 @@ public class PlatformerMovement : MonoBehaviour
 			grounded = false;
 		}
 	}
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.CompareTag("Coins"))
-        {
-            Destroy(other.gameObject);
-        }
-    }
 }
