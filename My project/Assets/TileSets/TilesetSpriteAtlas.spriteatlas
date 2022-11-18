@@ -37,8 +37,46 @@ SpriteAtlas:
     isAtlasV2: 0
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
-  m_PackedSprites: []
-  m_PackedSpriteNamesToIndex: []
+  m_PackedSprites:
+  - {fileID: 1164134768, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
+  - {fileID: -1354927908, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
+  - {fileID: 1671557420, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
+  - {fileID: -393982769, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
+  - {fileID: 766482349, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
+  - {fileID: -1575743189, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
+  - {fileID: 818228055, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
+  - {fileID: -1175312134, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
+  - {fileID: -519988328, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
+  - {fileID: -587901004, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
+  - {fileID: 24193086, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
+  - {fileID: -1374602471, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
+  - {fileID: 276510948, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
+  - {fileID: -1464852411, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
+  - {fileID: 1375273959, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
+  - {fileID: -968184925, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
+  - {fileID: -973985972, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
+  - {fileID: -195501106, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
+  - {fileID: -633923894, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - Level1GroundAndBackground_1
+  - Level1GroundAndBackground_0
+  - Level1GroundAndBackground_3
+  - Level1GroundAndBackground_2
+  - Level1GroundAndBackground_5
+  - Level1GroundAndBackground_4
+  - Level1GroundAndBackground_7
+  - Level1GroundAndBackground_6
+  - Level1GroundAndBackground_9
+  - Level1GroundAndBackground_8
+  - Level1GroundAndBackground_10
+  - Level1GroundAndBackground_11
+  - Level1GroundAndBackground_12
+  - Level1GroundAndBackground_13
+  - Level1GroundAndBackground_14
+  - Level1GroundAndBackground_15
+  - Level1GroundAndBackground_16
+  - Level1GroundAndBackground_17
+  - Level1GroundAndBackground_18
   m_RenderDataMap: {}
   m_Tag: TilesetSpriteAtlas
   m_IsVariant: 0

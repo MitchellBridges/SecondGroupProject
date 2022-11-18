@@ -72,6 +72,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: 2, y: -6, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 29
+      m_TileSpriteIndex: 10
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741826
   - first: {x: -1, y: -5, z: 0}
     second:
       serializedVersion: 2
@@ -392,6 +402,8 @@ Tilemap:
     m_Data: {fileID: 11400000, guid: beb2bece0060d5249b7724ba43ec73ae, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: c0ce164bc4557d94599a1f49bd0dcd03, type: 2}
+  - m_RefCount: 1
+    m_Data: {fileID: 11400000, guid: b1463121afe326342898e377b90c84a5, type: 2}
   m_TileSpriteArray:
   - m_RefCount: 1
     m_Data: {fileID: -1365246959, guid: 724ce0eef83463048800242e6181adad, type: 3}
@@ -413,7 +425,7 @@ Tilemap:
     m_Data: {fileID: 414274019, guid: 724ce0eef83463048800242e6181adad, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1832905052, guid: 724ce0eef83463048800242e6181adad, type: 3}
-  - m_RefCount: 1
+  - m_RefCount: 2
     m_Data: {fileID: -1354927908, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 1164134768, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
@@ -452,7 +464,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: -633923894, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 29
+  - m_RefCount: 30
     m_Data:
       e00: 1
       e01: 0
@@ -471,7 +483,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 29
+  - m_RefCount: 30
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -591,7 +603,7 @@ Grid:
   m_CellGap: {x: 0, y: 0, z: 0}
   m_CellLayout: 0
   m_CellSwizzle: 0
---- !u!114 &9134986647823395517
+--- !u!114 &1066007063017444457
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
