@@ -14,7 +14,6 @@ public class PlatformerMovement : MonoBehaviour
     SpriteRenderer spriteR;
     Rigidbody2D feet;
 
-    public GameObject Coins;
 
     void Start()
     {
