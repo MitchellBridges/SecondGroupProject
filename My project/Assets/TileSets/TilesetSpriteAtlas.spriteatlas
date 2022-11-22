@@ -33,6 +33,8 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 2800000, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
+    - {fileID: 2800000, guid: e848bfdff105bc745a3d81e4631b0339, type: 3}
+    - {fileID: 2800000, guid: 0b8f86be849afe444bf735f188c670d2, type: 3}
     bindAsDefault: 1
     isAtlasV2: 0
     cachedData: {fileID: 0}
@@ -57,6 +59,37 @@ SpriteAtlas:
   - {fileID: -973985972, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
   - {fileID: -195501106, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
   - {fileID: -633923894, guid: 8f4758c1806361349a3b657ad42872f1, type: 3}
+  - {fileID: 593921317, guid: 0b8f86be849afe444bf735f188c670d2, type: 3}
+  - {fileID: 2056492578, guid: 0b8f86be849afe444bf735f188c670d2, type: 3}
+  - {fileID: -1768074036, guid: 0b8f86be849afe444bf735f188c670d2, type: 3}
+  - {fileID: 1253001456, guid: 0b8f86be849afe444bf735f188c670d2, type: 3}
+  - {fileID: 765226625, guid: 0b8f86be849afe444bf735f188c670d2, type: 3}
+  - {fileID: -1330365047, guid: 0b8f86be849afe444bf735f188c670d2, type: 3}
+  - {fileID: 1459724190, guid: 0b8f86be849afe444bf735f188c670d2, type: 3}
+  - {fileID: 2108466600, guid: 0b8f86be849afe444bf735f188c670d2, type: 3}
+  - {fileID: -803141966, guid: 0b8f86be849afe444bf735f188c670d2, type: 3}
+  - {fileID: -1868217146, guid: 0b8f86be849afe444bf735f188c670d2, type: 3}
+  - {fileID: 1261508480, guid: 0b8f86be849afe444bf735f188c670d2, type: 3}
+  - {fileID: -1294482884, guid: 0b8f86be849afe444bf735f188c670d2, type: 3}
+  - {fileID: 1323456196, guid: 0b8f86be849afe444bf735f188c670d2, type: 3}
+  - {fileID: -1757961868, guid: e848bfdff105bc745a3d81e4631b0339, type: 3}
+  - {fileID: -1979580064, guid: e848bfdff105bc745a3d81e4631b0339, type: 3}
+  - {fileID: 957055374, guid: e848bfdff105bc745a3d81e4631b0339, type: 3}
+  - {fileID: 1626700221, guid: e848bfdff105bc745a3d81e4631b0339, type: 3}
+  - {fileID: -1285066057, guid: e848bfdff105bc745a3d81e4631b0339, type: 3}
+  - {fileID: 2120337507, guid: e848bfdff105bc745a3d81e4631b0339, type: 3}
+  - {fileID: 661851668, guid: e848bfdff105bc745a3d81e4631b0339, type: 3}
+  - {fileID: -1077514636, guid: e848bfdff105bc745a3d81e4631b0339, type: 3}
+  - {fileID: 725129107, guid: e848bfdff105bc745a3d81e4631b0339, type: 3}
+  - {fileID: -1006625494, guid: e848bfdff105bc745a3d81e4631b0339, type: 3}
+  - {fileID: 190528135, guid: e848bfdff105bc745a3d81e4631b0339, type: 3}
+  - {fileID: -224527376, guid: e848bfdff105bc745a3d81e4631b0339, type: 3}
+  - {fileID: 1147192530, guid: e848bfdff105bc745a3d81e4631b0339, type: 3}
+  - {fileID: 1795762488, guid: e848bfdff105bc745a3d81e4631b0339, type: 3}
+  - {fileID: 1526230783, guid: e848bfdff105bc745a3d81e4631b0339, type: 3}
+  - {fileID: -1365164370, guid: e848bfdff105bc745a3d81e4631b0339, type: 3}
+  - {fileID: -928699618, guid: e848bfdff105bc745a3d81e4631b0339, type: 3}
+  - {fileID: 1825970578, guid: e848bfdff105bc745a3d81e4631b0339, type: 3}
   m_PackedSpriteNamesToIndex:
   - Level1GroundAndBackground_1
   - Level1GroundAndBackground_0
@@ -77,6 +110,37 @@ SpriteAtlas:
   - Level1GroundAndBackground_16
   - Level1GroundAndBackground_17
   - Level1GroundAndBackground_18
+  - Level3GroundAndBackground_3
+  - Level3GroundAndBackground_2
+  - Level3GroundAndBackground_1
+  - Level3GroundAndBackground_0
+  - Level3GroundAndBackground_7
+  - Level3GroundAndBackground_6
+  - Level3GroundAndBackground_5
+  - Level3GroundAndBackground_4
+  - Level3GroundAndBackground_9
+  - Level3GroundAndBackground_8
+  - Level3GroundAndBackground_12
+  - Level3GroundAndBackground_10
+  - Level3GroundAndBackground_11
+  - Level2GroundAndBackground_4
+  - Level2GroundAndBackground_5
+  - Level2GroundAndBackground_6
+  - Level2GroundAndBackground_7
+  - Level2GroundAndBackground_0
+  - Level2GroundAndBackground_1
+  - Level2GroundAndBackground_2
+  - Level2GroundAndBackground_3
+  - Level2GroundAndBackground_8
+  - Level2GroundAndBackground_9
+  - Level2GroundAndBackground_17
+  - Level2GroundAndBackground_16
+  - Level2GroundAndBackground_15
+  - Level2GroundAndBackground_14
+  - Level2GroundAndBackground_13
+  - Level2GroundAndBackground_12
+  - Level2GroundAndBackground_11
+  - Level2GroundAndBackground_10
   m_RenderDataMap: {}
   m_Tag: TilesetSpriteAtlas
   m_IsVariant: 0
