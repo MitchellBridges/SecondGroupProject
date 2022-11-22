@@ -169,7 +169,7 @@ MonoBehaviour:
   coinCount: 0
   coinsNeeded: 10
   coinText: {fileID: 0}
-  sceneName: level2
+  sceneName: Level2
 --- !u!114 &8506509280623833856
 MonoBehaviour:
   m_ObjectHideFlags: 0
