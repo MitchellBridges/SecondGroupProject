@@ -10,6 +10,8 @@ public class Health : MonoBehaviour
 
     public Slider slider;
     public float health = 10;
+    public int maxHealth = 10;
+    public int healing = 4;
 
     void Start()
     {
@@ -47,15 +49,26 @@ public class Health : MonoBehaviour
                 SceneManager.LoadScene(scene.name);
             }
         }
+        else if (otherTag == "HealingPowerUp")
+        {
+            health += healing;
+            Destroy(collision.gameObject);
+            //GetComponent<AudioSource>().PlayOneShot(potionDrink);
+            if (health > maxHealth)
+            {
+                health = maxHealth;
+
+            }
+        }
         //else if (otherTag == "EBulletDamage")
         //{
-            //health -= 4;
-            //if (health <= 0)
-            //{
-                //Scene scene = SceneManager.GetActiveScene();
-                //SceneManager.LoadScene(scene.name);
-            //}
+        //health -= 4;
+        //if (health <= 0)
+        //{
+        //Scene scene = SceneManager.GetActiveScene();
+        //SceneManager.LoadScene(scene.name);
         //}
-        
+        //}
+
     }
 }
