@@ -10590,6 +10590,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 285103033}
     - target: {fileID: 8506509280623833857, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
+      propertyPath: sceneName
+      value: WinScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506509280623833857, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
       propertyPath: coinsNeeded
       value: 12
       objectReference: {fileID: 0}
