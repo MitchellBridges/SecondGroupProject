@@ -918,6 +918,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 8506509280623833856, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
+      propertyPath: slider
+      value: 
+      objectReference: {fileID: 1068798802}
+    - target: {fileID: 8506509280623833857, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
+      propertyPath: sceneName
+      value: WinScene3
+      objectReference: {fileID: 0}
     - target: {fileID: 8506509280623833858, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -962,6 +970,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8506509280623833859, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
+      propertyPath: jumpSpeed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506509280623833859, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
+      propertyPath: moveSpeed
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 8506509280623833860, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
       propertyPath: m_Name
       value: Player
@@ -976,6 +992,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8506509280623833886, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
       propertyPath: m_UsedByComposite
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8506509282203095017, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
+      propertyPath: orthographic
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1603,6 +1623,17 @@ Rigidbody2D:
   m_CorrespondingSourceObject: {fileID: 8506509280623833887, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
   m_PrefabInstance: {fileID: 323540644}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1068798802 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 321072097634213112, guid: cde8eb5270f12c9438ce32152d60cb1d, type: 3}
+  m_PrefabInstance: {fileID: 619561855}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1215193884
 GameObject:
   m_ObjectHideFlags: 0
@@ -1660,6 +1691,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6710691632282997978, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
+      propertyPath: m_text
+      value: 'Objective: Walk around, find power-ups, defeat the enemies, find 12
+        coins to complete the level.
+
+        *You can climb chains to reach higher
+        platforms.'
+      objectReference: {fileID: 0}
+    - target: {fileID: 6710691632282997979, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6710691632282997979, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 233
+      objectReference: {fileID: 0}
     - target: {fileID: 6710691632869871819, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
       propertyPath: m_Name
       value: ObjectiveAndPauseMenu
