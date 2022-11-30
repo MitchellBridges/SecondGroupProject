@@ -13,14 +13,14 @@ public class PlatformerMovement : MonoBehaviour
     Animator animator;
     SpriteRenderer spriteR;
     Rigidbody2D feet;
-
-
+    
     void Start()
     {
         rb= GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         spriteR = GetComponent<SpriteRenderer>();
     }
+    
 
 
     void Update()
@@ -30,7 +30,10 @@ public class PlatformerMovement : MonoBehaviour
         Vector2 velocity = rb.velocity;
         velocity.x = moveX * moveSpeed;
         rb.velocity = velocity;
+       // WallSlide();
+       // WallJump();
         
+
         if (Input.GetButtonDown("Jump") && grounded)
         {
             rb.AddForce(new Vector2(0, 100 * jumpSpeed));
@@ -75,4 +78,6 @@ public class PlatformerMovement : MonoBehaviour
 			grounded = false;
 		}
 	}
+ 
+   
 }

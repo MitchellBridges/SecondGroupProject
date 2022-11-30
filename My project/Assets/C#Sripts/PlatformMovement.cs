@@ -13,13 +13,15 @@ public class PlatformMovement : MonoBehaviour {
 	private bool home = true;
 	public Vector3 paceDirection = new Vector3 (0f, 0f, 0f);
 	public float paceDistance = 3.0f;
+   
+  
 	// Use this for initialization
 	void Start () {
 		//get the spawn position so we know how to get home
 		startPosition = transform.position;
 
 	}
-	
+    
 	// Update is called once per frame
 	void Update () {
 		Vector3 playerPosition = player.transform.position;
