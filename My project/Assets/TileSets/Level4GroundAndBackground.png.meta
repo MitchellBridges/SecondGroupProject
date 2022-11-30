@@ -650,6 +650,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Level4GroundAndBackground_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bdb94efa7eb4c94bb7961e8048cf934
+      internalID: -1916921447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -666,6 +687,7 @@ TextureImporter:
       Level4GroundAndBackground_25: 1503205823
       Level4GroundAndBackground_10: -174959137
       Level4GroundAndBackground_24: 2056042537
+      Level4GroundAndBackground_26: -1916921447
       Level4GroundAndBackground_7: -1006008280
       Level4GroundAndBackground_21: -1572551098
       Level4GroundAndBackground_20: 958346861
