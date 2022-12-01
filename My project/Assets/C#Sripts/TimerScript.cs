@@ -9,7 +9,7 @@ public class TimerScript : MonoBehaviour
 	public TextMeshProUGUI timerText;
 
 	[Header("Timer Settings")]
-	public float currentTime;
+	public static float currentTime;
 	public bool countDown;
 
 	[Header("Limit Settings")]

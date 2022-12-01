@@ -33,6 +33,7 @@ public class CoinCollecting : MonoBehaviour
             if (coinCount >= coinsNeeded)
             {
                 SceneManager.LoadScene(sceneName);
+                PlayerPrefs.SetFloat("Timer", TimerScript.currentTime);
             }
         }
     }
