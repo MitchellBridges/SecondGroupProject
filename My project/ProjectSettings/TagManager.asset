@@ -9,6 +9,7 @@ TagManager:
   - HealingPowerUp
   - Ladder
   - DeathPlane
+  - Teleporter
   layers:
   - Default
   - TransparentFX
