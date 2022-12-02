@@ -63,18 +63,6 @@ public class Health : MonoBehaviour
             }
         }
 
-        else if(otherTag == "DeathPlane")
-        {
-            health -= 15f;
-            slider.value = health;
-
-            if(health <= 0)
-            {
-				Scene scene = SceneManager.GetActiveScene();
-				SceneManager.LoadScene(scene.name);
-			}
-        }
-
         //else if (otherTag == "EBulletDamage")
         //{
         //health -= 4;
@@ -84,6 +72,23 @@ public class Health : MonoBehaviour
         //SceneManager.LoadScene(scene.name);
         //}
         //}
-
     }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+		string otherTag = collision.gameObject.tag;
+
+
+		if (otherTag == "DeathPlane")
+		{
+			health -= 15f;
+			slider.value = health;
+
+			if (health <= 0)
+			{
+				Time.timeScale = 0;
+				SceneManager.LoadScene("LoseScene");
+			}
+		}
+	}
 }

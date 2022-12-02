@@ -5,13 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class GameOver : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public string sceneName;
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
     void Update()
     {
         
@@ -20,7 +20,6 @@ public class GameOver : MonoBehaviour
     public void Restart()
     {
         Time.timeScale = 1;
-        Scene scene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(scene.name);
-    }
+		SceneManager.LoadScene(sceneName);
+	}
 }

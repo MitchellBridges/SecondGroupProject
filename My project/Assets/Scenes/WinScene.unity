@@ -609,7 +609,7 @@ GameObject:
   - component: {fileID: 1138906382}
   - component: {fileID: 1138906381}
   m_Layer: 5
-  m_Name: ReplayButton
+  m_Name: NextButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -895,7 +895,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -72, y: -0.0000090599}
+  m_AnchoredPosition: {x: -85, y: -0.0000090599}
   m_SizeDelta: {x: 283.916, y: 45.0638}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1204784511
@@ -1165,7 +1165,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.54509807}
+  m_BackGroundColor: {r: 0.3962264, g: 0.3962264, b: 0.3962264, a: 0.54901963}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
