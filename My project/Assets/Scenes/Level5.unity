@@ -4858,13 +4858,33 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6710691632095559930, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6710691632095559930, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 766395318, guid: 5db738b6d6aa2934db11a5f96938ec63, type: 3}
+    - target: {fileID: 6710691632095559930, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
+      propertyPath: m_Color.b
+      value: 0.47058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6710691632095559930, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
+      propertyPath: m_Color.g
+      value: 0.47058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6710691632095559930, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6431373
+      objectReference: {fileID: 0}
     - target: {fileID: 6710691632282997978, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
       propertyPath: m_text
       value: 'Objective: Walk around, find power-ups, defeat the enemies, find 12
         coins to complete the level.
 
-        *You can climb chains to reach higher
-        platforms*
+        *You can climb chains and columns to
+        reach higher platforms*
 
         *You can jump through some platforms*'
       objectReference: {fileID: 0}
@@ -4875,6 +4895,26 @@ PrefabInstance:
     - target: {fileID: 6710691632282997979, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 233
+      objectReference: {fileID: 0}
+    - target: {fileID: 6710691632319490636, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6710691632319490636, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 766395318, guid: 5db738b6d6aa2934db11a5f96938ec63, type: 3}
+    - target: {fileID: 6710691632319490636, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
+      propertyPath: m_Color.b
+      value: 0.47058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6710691632319490636, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
+      propertyPath: m_Color.g
+      value: 0.47058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6710691632319490636, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6431373
       objectReference: {fileID: 0}
     - target: {fileID: 6710691632869871819, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
       propertyPath: m_Name
@@ -4963,6 +5003,26 @@ PrefabInstance:
     - target: {fileID: 6710691632869871822, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6710691633397476310, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6710691633397476310, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 766395318, guid: 5db738b6d6aa2934db11a5f96938ec63, type: 3}
+    - target: {fileID: 6710691633397476310, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
+      propertyPath: m_Color.b
+      value: 0.47058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6710691633397476310, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
+      propertyPath: m_Color.g
+      value: 0.47058824
+      objectReference: {fileID: 0}
+    - target: {fileID: 6710691633397476310, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6431373
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
