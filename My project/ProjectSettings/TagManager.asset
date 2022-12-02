@@ -10,6 +10,7 @@ TagManager:
   - Ladder
   - DeathPlane
   - Teleporter
+  - Enemy
   layers:
   - Default
   - TransparentFX

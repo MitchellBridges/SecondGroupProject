@@ -39,7 +39,7 @@ public class Health : MonoBehaviour
             }
         }
 
-        else if (otherTag == "Enemy1")
+        else if (otherTag == "Enemy")
         {
             health -= 0.1f;
             slider.value = health;
