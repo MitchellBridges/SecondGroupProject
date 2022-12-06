@@ -604,6 +604,10 @@ PrefabInstance:
       propertyPath: slider
       value: 
       objectReference: {fileID: 658027585}
+    - target: {fileID: 7953432207472992145, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
+      propertyPath: sceneName
+      value: LoseScene5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
 --- !u!1001 &182808678
