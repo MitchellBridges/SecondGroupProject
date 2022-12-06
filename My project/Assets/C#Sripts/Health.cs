@@ -12,6 +12,7 @@ public class Health : MonoBehaviour
     public float health = 10;
     public int maxHealth = 10;
     public int healing = 4;
+    public string sceneName;
 
     void Start()
     {
@@ -87,7 +88,7 @@ public class Health : MonoBehaviour
 			if (health <= 0)
 			{
 				Time.timeScale = 0;
-				SceneManager.LoadScene("LoseScene");
+				SceneManager.LoadScene(sceneName);
 			}
 		}
 	}
