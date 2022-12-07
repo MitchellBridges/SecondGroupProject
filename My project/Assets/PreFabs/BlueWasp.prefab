@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 5417770048154379075}
   - component: {fileID: 5417770048154379074}
   - component: {fileID: 5417770048154379096}
+  - component: {fileID: -6714042901666516002}
   m_Layer: 0
   m_Name: BlueWasp
   m_TagString: Enemy
@@ -186,3 +187,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.1539576, y: 0.76883745}
   m_EdgeRadius: 0
+--- !u!114 &-6714042901666516002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5417770048154379073}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84ac0691904f3694684d25df5f251dd2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 10
+  Enemy: {fileID: 5417770048154379073}

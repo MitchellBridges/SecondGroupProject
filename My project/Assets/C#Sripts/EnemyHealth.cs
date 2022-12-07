@@ -8,12 +8,12 @@ public class EnemyHealth : MonoBehaviour
 {
 	public float health = 10;
 	public GameObject Enemy;
-	public Slider slider;
+	//public Slider slider;
 	// Start is called before the first frame update
 	void Start()
 	{
-		slider.maxValue = health;
-		slider.value = health;
+		//slider.maxValue = health;
+		//slider.value = health;
 	}
 
 	// Update is called once per frame
@@ -29,7 +29,7 @@ public class EnemyHealth : MonoBehaviour
 		{
 			health -= 3;
 			Destroy(collision.gameObject);
-			slider.value = health;
+			//slider.value = health;
 			if (health <= 0)
 			{
 				Debug.Log("Enemy Killed");

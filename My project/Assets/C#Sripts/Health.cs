@@ -55,6 +55,7 @@ public class Health : MonoBehaviour
         else if (otherTag == "HealingPowerUp")
         {
             health += healing;
+            slider.value = health;
             Destroy(collision.gameObject);
             //GetComponent<AudioSource>().PlayOneShot(potionDrink);
             if (health > maxHealth)
