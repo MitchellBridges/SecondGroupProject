@@ -205,6 +205,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 7
   jumpSpeed: 10.5
+  speedBuff: 4
 --- !u!95 &-7629551455201747412
 Animator:
   serializedVersion: 4
