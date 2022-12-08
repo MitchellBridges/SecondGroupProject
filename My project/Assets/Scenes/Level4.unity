@@ -4650,7 +4650,7 @@ PrefabInstance:
     - target: {fileID: 2549582305740867539, guid: 15a0111d9ffab32459f8cc7b2809c77a, type: 3}
       propertyPath: slider
       value: 
-      objectReference: {fileID: 1778383257}
+      objectReference: {fileID: 0}
     - target: {fileID: 2549582305740867544, guid: 15a0111d9ffab32459f8cc7b2809c77a, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -4705,17 +4705,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15a0111d9ffab32459f8cc7b2809c77a, type: 3}
---- !u!114 &540269765 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8679199828557585664, guid: 15a0111d9ffab32459f8cc7b2809c77a, type: 3}
-  m_PrefabInstance: {fileID: 2549582304875043072}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &553671430
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -82426,7 +82415,7 @@ PrefabInstance:
     - target: {fileID: 2549582305740867539, guid: 15a0111d9ffab32459f8cc7b2809c77a, type: 3}
       propertyPath: slider
       value: 
-      objectReference: {fileID: 900485239}
+      objectReference: {fileID: 0}
     - target: {fileID: 2549582305740867544, guid: 15a0111d9ffab32459f8cc7b2809c77a, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -82945,17 +82934,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 75fc8883d3b8d9f4796b745ec0f4708f, type: 3}
---- !u!114 &900485239 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8679199828557585664, guid: 15a0111d9ffab32459f8cc7b2809c77a, type: 3}
-  m_PrefabInstance: {fileID: 648253352}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &910855730
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -143199,17 +143177,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e990c13ff281c904092e4949df549335, type: 3}
---- !u!114 &1778383257 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 8679199828557585664, guid: 15a0111d9ffab32459f8cc7b2809c77a, type: 3}
-  m_PrefabInstance: {fileID: 486982099}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1794404370
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -143384,6 +143351,18 @@ PrefabInstance:
     - target: {fileID: 4079438206951858013, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
       propertyPath: sceneName
       value: WinScene4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4998116569382104409, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4998116569382104409, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 7997164959812548184, guid: dcce73d9108d9774b875dc1663a59afe, type: 3}
+    - target: {fileID: 4998116569382104409, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
+      propertyPath: bulletLifeTime
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5747280762142027957, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
       propertyPath: jumpSpeed
@@ -143697,7 +143676,7 @@ PrefabInstance:
     - target: {fileID: 2549582305740867539, guid: 15a0111d9ffab32459f8cc7b2809c77a, type: 3}
       propertyPath: slider
       value: 
-      objectReference: {fileID: 540269765}
+      objectReference: {fileID: 0}
     - target: {fileID: 2549582305740867544, guid: 15a0111d9ffab32459f8cc7b2809c77a, type: 3}
       propertyPath: m_RootOrder
       value: 12
