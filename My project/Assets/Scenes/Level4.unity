@@ -143353,9 +143353,17 @@ PrefabInstance:
       value: WinScene4
       objectReference: {fileID: 0}
     - target: {fileID: 4998116569382104409, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
+      propertyPath: speed
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4998116569382104409, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
       propertyPath: bullet
       value: 
       objectReference: {fileID: 7997164959812548184, guid: dcce73d9108d9774b875dc1663a59afe, type: 3}
+    - target: {fileID: 4998116569382104409, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
+      propertyPath: bulletLifeTime
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5747280762142027957, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
       propertyPath: jumpSpeed
       value: 10.5
