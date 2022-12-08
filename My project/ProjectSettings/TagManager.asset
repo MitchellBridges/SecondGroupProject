@@ -13,6 +13,7 @@ TagManager:
   - Enemy
   - PlayerBullet
   - Enemy1
+  - SpeedPowerUp
   layers:
   - Default
   - TransparentFX

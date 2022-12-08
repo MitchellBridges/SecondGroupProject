@@ -9,6 +9,7 @@ public class PlatformerMovement : MonoBehaviour
     [SerializeField]
     float jumpSpeed = 1.0f;
     bool grounded = false;
+    public float speedBuff = 3f;
     Rigidbody2D rb;
     Animator animator;
     SpriteRenderer spriteR;
@@ -78,6 +79,16 @@ public class PlatformerMovement : MonoBehaviour
 			grounded = false;
 		}
 	}
- 
-   
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        string otherTag = collision.gameObject.tag;
+        if (otherTag == "SpeedPowerUp")
+        {
+            moveSpeed += speedBuff;
+            Destroy(collision.gameObject);
+            //GetComponent<AudioSource>().PlayOneShot(potionDrink);
+        }
+    }
+
+
 }
