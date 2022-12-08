@@ -264,7 +264,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: -564.5, y: -249.5}
-  m_SizeDelta: {x: 160, y: 20}
+  m_SizeDelta: {x: 130, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &6011792917620285372
 MonoBehaviour:
@@ -305,7 +305,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 8249652004329040506}
   m_FillRect: {fileID: 6534407862931878986}
   m_HandleRect: {fileID: 4299305799268484458}
