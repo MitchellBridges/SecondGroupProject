@@ -34,7 +34,7 @@ public class PlayerShoot : MonoBehaviour
                 bulletSpawn.GetComponent<Rigidbody2D>().velocity = shootDir * speed;
 
                 Destroy(bulletSpawn, bulletLifeTime);
-                //Camera.main.GetComponent<AudioSource>().PlayOneShot(shootSound);
+                GetComponent<AudioSource>().PlayOneShot(shootSound);
 
             }
             void OnCollisionEnter2D(Collision2D collision)

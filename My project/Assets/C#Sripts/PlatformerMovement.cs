@@ -14,7 +14,8 @@ public class PlatformerMovement : MonoBehaviour
     Animator animator;
     SpriteRenderer spriteR;
     Rigidbody2D feet;
-    
+    public AudioClip potionDrink;
+
     void Start()
     {
         rb= GetComponent<Rigidbody2D>();
@@ -86,7 +87,7 @@ public class PlatformerMovement : MonoBehaviour
         {
             moveSpeed += speedBuff;
             Destroy(collision.gameObject);
-            //GetComponent<AudioSource>().PlayOneShot(potionDrink);
+            GetComponent<AudioSource>().PlayOneShot(potionDrink);
         }
     }
 
