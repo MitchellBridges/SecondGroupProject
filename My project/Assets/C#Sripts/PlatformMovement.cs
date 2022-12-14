@@ -13,8 +13,9 @@ public class PlatformMovement : MonoBehaviour {
 	private bool home = true;
 	public Vector3 paceDirection = new Vector3 (0f, 0f, 0f);
 	public float paceDistance = 3.0f;
-   
-  
+	bool isPlaying = false;
+
+
 	// Use this for initialization
 	void Start () {
 		//get the spawn position so we know how to get home
@@ -32,17 +33,25 @@ public class PlatformMovement : MonoBehaviour {
 			home = false;
 			chaseDirection.Normalize ();
 			GetComponent<Rigidbody2D> ().velocity = chaseDirection * chaseSpeed;
+			if (isPlaying == false)
+			{
+				GetComponent<AudioSource>().Play();
+				isPlaying = true;
+			}
 		} else if (home == false) {
 			Vector2 homeDirection = new Vector2 (startPosition.x - transform.position.x,
 				                        startPosition.y - transform.position.y);
+			
 			if (homeDirection.magnitude < 0.3f) {
 				//we've arrived home
 				home = true;
 				GetComponent<Rigidbody2D> ().velocity = new Vector2 (0, 0);
+				isPlaying = false;
 			} else {
 				//go home
 				homeDirection.Normalize ();
 				GetComponent<Rigidbody2D> ().velocity = homeDirection * chaseSpeed;
+				isPlaying = false;
 			}
 		} else {
 			Vector3 displacement = transform.position - startPosition;
@@ -53,6 +62,7 @@ public class PlatformMovement : MonoBehaviour {
 			}
 			paceDirection.Normalize ();
 			GetComponent<Rigidbody2D> ().velocity = paceDirection * chaseSpeed;
+			isPlaying = false;
 		}
 	}
 }

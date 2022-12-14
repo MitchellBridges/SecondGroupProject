@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 2549582305740867541}
   - component: {fileID: 2549582305740867540}
   - component: {fileID: 2549582305740867539}
+  - component: {fileID: -6452300134792360196}
   m_Layer: 0
   m_Name: BlackPawn
   m_TagString: Enemy
@@ -121,8 +122,8 @@ CapsuleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.021739483, y: 0.017436624}
-  m_Size: {x: 0.6956506, y: 0.9796169}
+  m_Offset: {x: -0.06086421, y: 0.017436624}
+  m_Size: {x: 0.51958895, y: 0.9796169}
   m_Direction: 0
 --- !u!50 &2549582305740867540
 Rigidbody2D:
@@ -159,3 +160,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 10
   Enemy: {fileID: 2549582305740867538}
+--- !u!114 &-6452300134792360196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2549582305740867538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 971de9f23b8eefa4c971d996a68f4c19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prefab: {fileID: 7997164959812548184, guid: 3f3c9fd33e433014ba147f7d038d6ee3, type: 3}
+  bulletSpeed: 10
+  bulletLifetime: 2
+  player: {fileID: 1492838301000180851, guid: 02bc6248076d2f640b0aee9daca0767f, type: 3}
+  close: 4
+  shootDelay: 1
