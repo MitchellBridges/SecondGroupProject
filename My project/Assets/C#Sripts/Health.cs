@@ -13,6 +13,7 @@ public class Health : MonoBehaviour
     public int maxHealth = 10;
     public int healing = 4;
     public string sceneName;
+    public AudioClip potionDrink;
 
     void Start()
     {
@@ -57,7 +58,7 @@ public class Health : MonoBehaviour
             health += healing;
             slider.value = health;
             Destroy(collision.gameObject);
-            //GetComponent<AudioSource>().PlayOneShot(potionDrink);
+            GetComponent<AudioSource>().PlayOneShot(potionDrink);
             if (health > maxHealth)
             {
                 health = maxHealth;
