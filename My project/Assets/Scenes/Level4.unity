@@ -225,10 +225,13 @@ PrefabInstance:
       value: 'Objective: Walk around, find power-ups, defeat the enemies, find 12
         coins to complete the level.
 
-        *You can climb chains and columns to
-        reach higher platforms*
+        *You can climb chains and columns with
+        W to reach higher platforms*
 
-        *You can jump through some platforms*'
+        *You can jump through some platforms*
+
+        *You
+        can teleport through orbs with W*'
       objectReference: {fileID: 0}
     - target: {fileID: 6710691632282997979, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
       propertyPath: m_AnchoredPosition.x
