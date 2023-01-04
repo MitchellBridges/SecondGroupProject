@@ -233,13 +233,17 @@ PrefabInstance:
         *You
         can teleport through orbs with W*'
       objectReference: {fileID: 0}
+    - target: {fileID: 6710691632282997978, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
+      propertyPath: m_margin.z
+      value: -162.63681
+      objectReference: {fileID: 0}
     - target: {fileID: 6710691632282997979, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -444
+      value: -319
       objectReference: {fileID: 0}
     - target: {fileID: 6710691632282997979, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 233
+      value: 222
       objectReference: {fileID: 0}
     - target: {fileID: 6710691632319490636, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
       propertyPath: m_Type
@@ -83149,7 +83153,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -988, y: -471}
+  m_AnchoredPosition: {x: -815.2, y: -482.4}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1066193787
