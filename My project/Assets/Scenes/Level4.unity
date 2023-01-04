@@ -235,7 +235,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6710691632282997979, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -647
+      value: -444
       objectReference: {fileID: 0}
     - target: {fileID: 6710691632282997979, guid: 6dd570c919ba7f94f83fd0419f248f0a, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -82467,11 +82467,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 321072097634213115, guid: cde8eb5270f12c9438ce32152d60cb1d, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -25.1
+      value: -25.6
       objectReference: {fileID: 0}
     - target: {fileID: 321072097634213115, guid: cde8eb5270f12c9438ce32152d60cb1d, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 12.1
+      value: 19.6
       objectReference: {fileID: 0}
     - target: {fileID: 321072098406764352, guid: cde8eb5270f12c9438ce32152d60cb1d, type: 3}
       propertyPath: m_AnchorMax.x
@@ -83149,7 +83149,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -1188, y: -483}
+  m_AnchoredPosition: {x: -988, y: -471}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1066193787
